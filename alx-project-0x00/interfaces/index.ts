@@ -4,7 +4,6 @@ export interface PillProps {
 
 export interface ButtonProps {
   title: string
-  size?: "small" | "medium" | "large"
-  shape?: "sm" | "md" | "full"
+  styles: string
   onClick?: () => void
 }
